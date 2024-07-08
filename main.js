@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')({sigint: true})
 
 var num1,num2,operador
 
-var caracteres = ['+','-','*','x','/','%']
+var caracteres = ['+','-','*','/','%']
 validacao()
 function validacao(){
     num1 = parseFloat(prompt("Digite o primeiro numero: "))
@@ -39,7 +39,7 @@ function calcular(){
     case '-':
         console.log(`resultado: ${num1-num2}`);
     break
-    case '*' || 'x':
+    case '*':
         console.log(`resultado: ${num1*num2}`);
     break
     case '/':
